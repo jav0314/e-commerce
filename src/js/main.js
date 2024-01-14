@@ -7,3 +7,4 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!app) throw new Error(`Unable to locate element with '${APP_ID}' id. Cannot initialize app`)
     app.innerHTML = 'e-commerce'
 })
+
